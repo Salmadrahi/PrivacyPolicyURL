@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — Scan In</title>
+<meta name="description" content="How Scan In collects, uses, and protects employee and manager information.">
+<meta name="robots" content="index,follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#131C2E; --yellow:#FDC93A; --cream:#FDF3DF; --paper:#F7F1E4;
+  --coral:#FA7C68; --slate:#6B7A90; --white:#fff; --green:#1E9E5A;
+  --measure:44rem;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:var(--cream); color:var(--ink);
+  font-family:'Space Grotesk',ui-sans-serif,system-ui,-apple-system,sans-serif;
+  font-size:1.0625rem; line-height:1.65; -webkit-font-smoothing:antialiased;
+}
+a{color:var(--ink);text-decoration-thickness:2px;text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:4px solid var(--coral);outline-offset:3px;border-radius:4px}
+
+/* ---------- masthead ---------- */
+.bar{background:var(--ink);color:var(--cream);border-bottom:5px solid var(--ink)}
+.bar .in{max-width:var(--measure);margin:0 auto;padding:.9rem 1.5rem;display:flex;
+  align-items:center;justify-content:space-between;gap:1rem}
+.bar b{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1.05rem;letter-spacing:-.01em}
+.bar span{font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--yellow)}
+
+header.hero{background:var(--yellow);border-bottom:5px solid var(--ink);padding:3.5rem 1.5rem 3rem}
+header.hero .in{max-width:var(--measure);margin:0 auto}
+header.hero h1{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;
+  font-size:clamp(2.4rem,8vw,3.9rem);line-height:.98;letter-spacing:-.035em}
+header.hero p{margin-top:1.1rem;font-size:1.1rem;font-weight:500;max-width:34rem}
+.dates{margin-top:1.6rem;display:flex;flex-wrap:wrap;gap:.6rem}
+.dates i{font-style:normal;background:var(--ink);color:var(--cream);border-radius:999px;
+  padding:.45rem 1rem;font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+
+main{max-width:var(--measure);margin:0 auto;padding:3rem 1.5rem 5rem}
+
+/* ---------- callouts ---------- */
+.box{border:5px solid var(--ink);border-radius:20px;box-shadow:8px 8px 0 var(--ink);
+  background:var(--white);padding:1.5rem 1.6rem;margin:2rem 0}
+.box.warn{background:var(--coral)}
+.box.note{background:var(--paper)}
+.box h3{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1.15rem;margin-bottom:.6rem}
+.box p+p{margin-top:.7rem}
+.box ul{margin:.7rem 0 0 1.15rem}
+
+/* ---------- toc ---------- */
+nav.toc{border:5px solid var(--ink);border-radius:20px;background:var(--white);
+  box-shadow:8px 8px 0 var(--ink);padding:1.4rem 1.6rem;margin-bottom:3rem}
+nav.toc p{font-size:.75rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--slate);margin-bottom:.9rem}
+nav.toc ol{list-style:none;counter-reset:t;display:grid;gap:.45rem}
+nav.toc li{counter-increment:t;display:flex;gap:.75rem;align-items:baseline}
+nav.toc li::before{content:counter(t,decimal-leading-zero);font-weight:700;font-size:.8rem;
+  color:var(--slate);font-variant-numeric:tabular-nums}
+nav.toc a{text-decoration:none;font-weight:600}
+nav.toc a:hover{text-decoration:underline}
+
+/* ---------- sections ---------- */
+section{margin-top:3.2rem;scroll-margin-top:1.5rem}
+section>h2{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;
+  font-size:clamp(1.5rem,4.5vw,2rem);line-height:1.1;letter-spacing:-.02em;
+  padding-bottom:.7rem;border-bottom:5px solid var(--ink);margin-bottom:1.2rem}
+section h3{font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:1.15rem;margin:1.8rem 0 .5rem}
+p+p,ul+p,p+ul,table+p{margin-top:1rem}
+ul,ol.body{margin-left:1.2rem}
+li{margin-top:.4rem}
+strong{font-weight:700}
+
+/* ---------- tables ---------- */
+.wrap{overflow-x:auto;margin-top:1.2rem;border:5px solid var(--ink);border-radius:18px;
+  box-shadow:8px 8px 0 var(--ink);background:var(--white)}
+table{width:100%;border-collapse:collapse;min-width:33rem}
+th,td{text-align:left;padding:.85rem 1rem;vertical-align:top;font-size:.95rem}
+th{background:var(--yellow);font-size:.7rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;border-bottom:4px solid var(--ink)}
+td{border-top:3px solid rgba(19,28,46,.12)}
+tr:first-child td{border-top:none}
+.yes{color:var(--green);font-weight:700}
+.no{color:var(--slate);font-weight:700}
+
+/* ---------- fill-me placeholders ---------- */
+.fill{background:var(--yellow);border-bottom:3px solid var(--ink);padding:0 .25rem;font-weight:700;white-space:nowrap}
+
+footer{border-top:5px solid var(--ink);background:var(--ink);color:var(--cream);padding:2.5rem 1.5rem 3rem}
+footer .in{max-width:var(--measure);margin:0 auto;font-size:.9rem}
+footer a{color:var(--yellow)}
+footer p+p{margin-top:.6rem}
+
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{
+  .bar,nav.toc{display:none}
+  body{background:#fff}
+  .box,.wrap,header.hero{box-shadow:none}
+  header.hero{background:#fff}
+}
+</style>
+</head>
+<body>
+
+<div class="bar"><div class="in"><b>Scan In</b><span>Privacy</span></div></div>
+
+<header class="hero">
+  <div class="in">
+    <h1>Privacy Policy</h1>
+    <p>Scan In is an employee time clock. This page explains what the app records, why it records it, and who can see it.</p>
+    <div class="dates">
+      <i>Effective <span class="fill">28 August 2026</span></i>
+      <i>Version 1.0</i>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="box warn">
+    <h3>Before you publish this page</h3>
+    <p>Every <span class="fill">highlighted</span> item below is a placeholder you must replace: legal entity name, postal address, contact email, and governing jurisdiction. Search the file for <code>class="fill"</code> to find them all.</p>
+    <p>This is a drafting starting point written to match how the app actually behaves — it is not legal advice. Workplace location tracking is separately regulated in many places, and the rules differ by state and country. Have a lawyer review this before you ship, particularly the location and employee-rights sections.</p>
+  </div>
+
+  <nav class="toc" aria-label="Contents">
+    <p>On this page</p>
+    <ol>
+      <li><a href="#roles">Who controls the information</a></li>
+      <li><a href="#collect">What we collect</a></li>
+      <li><a href="#location">How location is used</a></li>
+      <li><a href="#why">Why we use it</a></li>
+      <li><a href="#share">Who we share it with</a></li>
+      <li><a href="#labels">App Store privacy summary</a></li>
+      <li><a href="#keep">How long we keep it</a></li>
+      <li><a href="#security">How it is protected</a></li>
+      <li><a href="#rights">Your choices and rights</a></li>
+      <li><a href="#employers">If you run a business on Scan In</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#transfers">International transfers</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+      <li><a href="#contact">Contact us</a></li>
+    </ol>
+  </nav>
+
+  <section id="roles">
+    <h2>1. Who controls the information</h2>
+    <p>Scan In is published by <span class="fill">[Legal Entity Name]</span> ("we", "us"), <span class="fill">[Registered Address]</span>.</p>
+    <p>There are two kinds of people in the app, and the relationship differs for each.</p>
+    <p><strong>Employers.</strong> When a manager creates a business, they decide who is added, where the punch zone sits, and how long records are kept. For the punch data belonging to that business, the employer is the data controller and we act on their instructions as a service provider.</p>
+    <p><strong>Employees.</strong> If you punch in and out using Scan In, your employer decides what happens with your record. Requests to see, correct, or delete a punch record should go to your employer first. If you contact us directly, we will pass the request to them and help them act on it.</p>
+    <p>For the manager's own account information — the sign-up email, billing, support messages — we are the controller.</p>
+  </section>
+
+  <section id="collect">
+    <h2>2. What we collect</h2>
+    <p>We collect only what the time clock needs to work. There is no advertising SDK in the app, and we do not build profiles for marketing.</p>
+    <div class="wrap">
+      <table>
+        <thead><tr><th>Information</th><th>Where it comes from</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td>Manager name, email, password</td><td>Sign-up form</td><td>To create and secure the business account</td></tr>
+          <tr><td>Business name, store address or coordinates, punch radius</td><td>Entered in Settings</td><td>To define the zone where punches are accepted</td></tr>
+          <tr><td>Employee name and role</td><td>Added by the manager, or on joining with a code</td><td>To identify who a punch belongs to</td></tr>
+          <tr><td>Employee PIN (4 digits, stored hashed)</td><td>Set by the employee</td><td>To keep a profile from being opened by someone else</td></tr>
+          <tr><td>Punch records: in/out, date, time</td><td>Scanning the wall code</td><td>The core purpose of the app</td></tr>
+          <tr><td>Distance from the store at the moment of a punch</td><td>Device location, if permitted</td><td>To confirm the punch happened on site</td></tr>
+          <tr><td>Device model, OS version, app version, crash logs</td><td>Automatic</td><td>To diagnose faults and keep the app stable</td></tr>
+          <tr><td>Support messages</td><td>You, when you write to us</td><td>To answer you</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>We do <strong>not</strong> collect photographs, contacts, microphone audio, health data, browsing history, or biometric identifiers. Scanning a wall code uses the camera to read the code; camera frames are processed on the device and are not stored or uploaded.</p>
+  </section>
+
+  <section id="location">
+    <h2>3. How location is used</h2>
+    <p>This is the part employees ask about most, so it is worth being exact.</p>
+    <ul>
+      <li>Location is requested <strong>only at the moment you press clock in or clock out</strong>, while the app is open in front of you.</li>
+      <li>There is <strong>no background location</strong>. The app does not run a location service between shifts, and it cannot see where you go after you clock out.</li>
+      <li>What gets saved to the punch record is the <strong>distance in metres</strong> from the store and whether that fell inside the punch radius. Coordinates are used to compute that distance.</li>
+      <li>If the punch is outside the radius, it is refused and the distance is recorded so the manager can see why.</li>
+      <li>You can refuse the location permission in iOS Settings. A business that has set a punch radius may then be unable to accept your punch, and you will need to ask your manager to record it manually.</li>
+    </ul>
+    <div class="box note">
+      <h3>A note for managers</h3>
+      <p>Telling your staff that punches are location-checked is not optional in many places. Several US states and most of Europe require clear advance notice before an employer records worker location, and some require written consent. Setting a punch radius in Scan In is your decision, and the notice obligation is yours.</p>
+    </div>
+  </section>
+
+  <section id="why">
+    <h2>4. Why we use it</h2>
+    <p>We use the information above to run the time clock, to show managers who is working and how many hours have accrued, to produce the CSV export, to keep accounts secure and detect misuse, to fix crashes, and to answer support requests. Where the law requires a legal basis, ours is the performance of our contract with the business, our legitimate interest in keeping the service secure and working, and consent where consent is what applies — for example the iOS location permission.</p>
+    <p>We do not use punch data to train machine learning models, and we do not sell it.</p>
+  </section>
+
+  <section id="share">
+    <h2>5. Who we share it with</h2>
+    <p><strong>We do not sell personal information, and we do not share it for cross-context behavioural advertising.</strong> Information is disclosed only in these situations:</p>
+    <ul>
+      <li><strong>Your employer.</strong> Managers and owners of your business can see your profile and your punch history. That is the point of the product.</li>
+      <li><strong>Service providers</strong> who run parts of the service on our behalf — hosting, database, authentication, crash reporting, and payment processing. They are bound by contract to use the data only to provide those services.</li>
+      <li><strong>Legal requests</strong>, where we are required to disclose by valid legal process, or to protect our rights or someone's safety.</li>
+      <li><strong>A business transfer</strong>, if we are acquired or merged, in which case this policy travels with the data until it is replaced by a notice to you.</li>
+    </ul>
+  </section>
+
+  <section id="labels">
+    <h2>6. App Store privacy summary</h2>
+    <p>This mirrors the privacy label shown on the App Store listing.</p>
+    <div class="wrap">
+      <table>
+        <thead><tr><th>Category</th><th>Collected</th><th>Linked to you</th><th>Used to track you</th></tr></thead>
+        <tbody>
+          <tr><td>Contact info (name, email)</td><td class="yes">Yes</td><td class="yes">Yes</td><td class="no">No</td></tr>
+          <tr><td>Precise location</td><td class="yes">Yes, at punch time only</td><td class="yes">Yes</td><td class="no">No</td></tr>
+          <tr><td>Identifiers (account ID)</td><td class="yes">Yes</td><td class="yes">Yes</td><td class="no">No</td></tr>
+          <tr><td>Usage data and diagnostics</td><td class="yes">Yes</td><td class="no">No</td><td class="no">No</td></tr>
+          <tr><td>Contacts, photos, health, browsing</td><td class="no">No</td><td class="no">—</td><td class="no">No</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Nothing in Scan In is used for tracking as Apple defines it. The app does not access the advertising identifier and contains no third-party ad networks.</p>
+  </section>
+
+  <section id="keep">
+    <h2>7. How long we keep it</h2>
+    <p>Punch records are kept for as long as the business keeps its account, because they are the employer's wage-and-hour records and are often required to be retained for several years. A manager can delete individual records and employee profiles at any time.</p>
+    <p>If a business closes its account, we delete or anonymise its data within <span class="fill">[30]</span> days, except where we must keep something to meet a legal, tax, or accounting obligation. Backups are purged on a rolling <span class="fill">[35]</span>-day cycle.</p>
+    <p>Crash and diagnostic logs are kept for <span class="fill">[90]</span> days.</p>
+  </section>
+
+  <section id="security">
+    <h2>8. How it is protected</h2>
+    <p>Traffic between the app and our servers is encrypted in transit with TLS. Data at rest is encrypted by our hosting provider. Employee PINs are stored as salted hashes, not as readable digits. Access to production systems is limited to staff who need it and is protected by multi-factor authentication.</p>
+    <p>No system is perfectly secure, and we do not claim otherwise. If a breach affects your information we will notify you and the relevant regulator as required by law.</p>
+  </section>
+
+  <section id="rights">
+    <h2>9. Your choices and rights</h2>
+    <p>Depending on where you live you may have the right to access a copy of your information, correct it, delete it, restrict or object to certain uses, port it elsewhere, and withdraw a consent you gave. Residents of California may also ask about the categories of information collected and disclosed in the past twelve months, and are entitled not to be discriminated against for exercising a right.</p>
+    <p>To exercise a right, write to <span class="fill">[privacy@example.com]</span>. We will verify your identity before we act. If your request concerns punch data held by your employer, we will forward it to them, since they control that record.</p>
+    <p>You can also, at any time: turn off the location permission in iOS Settings, change or reset your PIN in the app, or ask your manager to remove your profile.</p>
+    <p>If you are in the EU or UK and are unhappy with our response, you may complain to your local data protection authority.</p>
+  </section>
+
+  <section id="employers">
+    <h2>10. If you run a business on Scan In</h2>
+    <p>You are responsible for the following, and we cannot do them for you:</p>
+    <ul>
+      <li>Telling your employees, before their first punch, that time and location are recorded, and obtaining consent where your jurisdiction requires it.</li>
+      <li>Adding only people who actually work for you, and removing profiles when someone leaves.</li>
+      <li>Keeping the punch radius no larger than it needs to be for your site.</li>
+      <li>Handling employee requests for access, correction, and deletion of their own records.</li>
+      <li>Meeting the wage-and-hour record-keeping rules that apply to you.</li>
+    </ul>
+  </section>
+
+  <section id="children">
+    <h2>11. Children</h2>
+    <p>Scan In is a workplace tool and is not directed to children. We do not knowingly collect information from anyone under 16. Where a business employs a minor lawfully, that employee's profile is created and managed by the employer, who is responsible for any consent their local law requires. If you believe a child's information reached us in error, write to us and we will remove it.</p>
+  </section>
+
+  <section id="transfers">
+    <h2>12. International transfers</h2>
+    <p>We operate from <span class="fill">[the United States]</span> and our service providers may process data there and in other countries. Where data moves out of the EEA or the UK, we rely on the European Commission's standard contractual clauses, together with the UK addendum where it applies.</p>
+  </section>
+
+  <section id="changes">
+    <h2>13. Changes to this policy</h2>
+    <p>If we change how the app handles information we will update this page and move the effective date at the top. For a change that materially affects you, we will also give notice inside the app before it takes effect. The version history is kept at the bottom of this page.</p>
+  </section>
+
+  <section id="contact">
+    <h2>14. Contact us</h2>
+    <p>Questions about this policy, or about your information:</p>
+    <div class="box">
+      <p><strong><span class="fill">[Legal Entity Name]</span></strong></p>
+      <p><span class="fill">[Street, City, State ZIP, Country]</span></p>
+      <p>Email: <a href="mailto:privacy@example.com"><span class="fill">privacy@example.com</span></a></p>
+    </div>
+    <p>This policy is governed by the laws of <span class="fill">[State / Country]</span>.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="in">
+    <p><strong>Scan In</strong> — employee time clock.</p>
+    <p>Version 1.0 · effective <span class="fill">28 August 2026</span> · first published <span class="fill">28 August 2026</span>.</p>
+    <p><a href="#">Back to top</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
